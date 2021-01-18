@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!--Title, CSS, and icon-->
+    <title>Reed's First ASP.NET App</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link rel="icon" href="img/desktop.png">
+</head>
+
+<body>
+    <!--Name, Image, Paragraph about the class, 3 jobs-->
+    <h1>Reed</h1>
+    <img src="img/slackProfilePic1.jpg" alt="I love hiking with my wife" height="100" width="100" />
+    <p>
+        I am excited for this class. I wasn't a huge fan of web development until last semester working with python and django.
+        I'm looking forward to learning a strongly typed language and learning a new framework that seems to be more industry-standard.
+        I also want to improve my progamming skills which are valuable in a lot more jobs than just development.
+    </p>
+    <br />
+    <p>Top 3 Jobs I'm Interested In</p>
+    <ul class="job-list">
+        <li>Security Auditing</li>
+        <li>Healthcare Technology</li>
+        <li>Web Development</li>
+    </ul>
+    <!--Grade Calculator-->
+    <h2>IS413 Grade Calculator</h2>
+    <form>
+        <label>Assignments (50%):</label>
+        <input id="assignments" />
+        <br />
+        <label>Group Project (10%):</label>
+        <input id="project" />
+        <br />
+        <label>Quizzes (10%):</label>
+        <input id="quizzes" />
+        <br />
+        <label>Exams (20%):</label>
+        <input id="exams" />
+        <br />
+        <label>INTEX (10%):</label>
+        <input id="intex" />
+        <br />
+        <br />
+        <input id="submitButton" type="submit" value="Calculate Grade" onclick="calcGrade()" />
+    </form>
+
+    <!--JavaScript function to calculate grade-->
+    <script src="js/gradeCalc.js"></script>
+    <script src="gradeCalc.js"></script>
+    <!--Credit to icon artist-->
+    <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+
+</body>
+
+</html>
